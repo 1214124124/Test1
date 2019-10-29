@@ -2,7 +2,6 @@ baseurl = ""
 languageCode = "en-us"
 title = "Hugo W3 Simple"
 defaultContentLanguage = "en"
-publishDir = "../Test1.github.io"
 
 theme = "hugo-w3-simple-master"
 disqusShortname = ""      
