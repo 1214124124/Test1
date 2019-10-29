@@ -1,57 +1,58 @@
 baseurl = ""
 languageCode = "en-us"
 title = "Hugo W3 Simple"
-defaultContentLanguage = "en" 
+defaultContentLanguage = "en"
+publishDir = "../Test1.github.io"
 
 theme = "hugo-w3-simple-master"
 disqusShortname = ""      
 googleAnalytics = ""     
-paginate = 12 #���������� 3 ������� � �����
-hasCJKLanguage = true # �������������� ����������� �����
+paginate = 12 #èñïîëüçóåò 3 ñòîëáöà â ãðèäå
+hasCJKLanguage = true # àâòîìàòè÷åñêîå îïðåäåëåíèå ÿçûêà
 
-# �������� ����
+# ýëåìåíòû ìåíþ
 [[menu.main]]
     name = "About"
     url = "/about/"
 [[menu.main]]
-    name = "Категории"
+    name = "ÐšÐ°Ñ‚ÐµÐ³Ð¾Ñ€Ð¸Ð¸"
     url = "/Categories/"
 [[menu.main]]
-    name = "Теги"
+    name = "Ð¢ÐµÐ³Ð¸"
     url = "/Tags/"
 [[menu.main]]
-    name = "Все посты"
+    name = "Ð’ÑÐµ Ð¿Ð¾ÑÑ‚Ñ‹"
     url = "/allposts/"
 [[menu.main]]
-    name = "Китайский"
+    name = "ÐšÐ¸Ñ‚Ð°Ð¹ÑÐºÐ¸Ð¹"
     url = "/zh-cn/"
-# ���������� �� ���������� ������ �����
+# ðàçäåëåíèå íà àíãëèéñêóþ âåðñèþ ñàéòà
 [languages.en]
 weight = 0
 languageName = "English"
 contentDir = "content/english"
 [languages.en.params]
       title = "Hugo W3 Simple Theme"
-      authorinfo = "<h4>Authored By Кирилл Тургунбаев</h4>"
-      licenseinfo = "<p class=\"w3-small\">Хороший человек, живущий на Земле, любящий делать сайт с Хьюго. �?та статья лицензирована под <a rel=\"license\" href=\"https://creativecommons.org/licenses/by/4.0/\" class=\"w3-text-white\">Международная Лицензия Creative Commons Attribution 4.0</a>.</p>"
+      authorinfo = "<h4>Authored By ÐšÐ¸Ñ€Ð¸Ð»Ð» Ð¢ÑƒÑ€Ð³ÑƒÐ½Ð±Ð°ÐµÐ²</h4>"
+      licenseinfo = "<p class=\"w3-small\">Ð¥Ð¾Ñ€Ð¾ÑˆÐ¸Ð¹ Ñ‡ÐµÐ»Ð¾Ð²ÐµÐº, Ð¶Ð¸Ð²ÑƒÑ‰Ð¸Ð¹ Ð½Ð° Ð—ÐµÐ¼Ð»Ðµ, Ð»ÑŽÐ±ÑÑ‰Ð¸Ð¹ Ð´ÐµÐ»Ð°Ñ‚ÑŒ ÑÐ°Ð¹Ñ‚ Ñ Ð¥ÑŒÑŽÐ³Ð¾. Ð?Ñ‚Ð° ÑÑ‚Ð°Ñ‚ÑŒÑ Ð»Ð¸Ñ†ÐµÐ½Ð·Ð¸Ñ€Ð¾Ð²Ð°Ð½Ð° Ð¿Ð¾Ð´ <a rel=\"license\" href=\"https://creativecommons.org/licenses/by/4.0/\" class=\"w3-text-white\">ÐœÐµÐ¶Ð´ÑƒÐ½Ð°Ñ€Ð¾Ð´Ð½Ð°Ñ Ð›Ð¸Ñ†ÐµÐ½Ð·Ð¸Ñ Creative Commons Attribution 4.0</a>.</p>"
       logotext = "HUGO W3 SIMPLE" 
       isso_langcode="en"
-#  ���������������� �����
+#  ôóíêöèîíèðîâàíèÿ ñàéòà
 [params]
     authorandlicense = true 
     authorimgurl = "https://raw.githubusercontent.com/jesselau76/hugo-w3-simple/master/exampleSite/images/johndoe.jpg" 
     backtotop = true
-    glowlogo = true #���������� �������
-    scrollindicator = true #������ ���������
-    gridstyle = true #�������� �� ����� 
-    readingtime = true #������� ���-�� ���� � �������
-    socialshare = true # ����������� ������ 
-    socialicon = true # ����������� ������
+    glowlogo = true #ñâåòÿùèéñÿ ëîãîòèï
+    scrollindicator = true #ñêðîëë èíäèêàòîð
+    gridstyle = true #ðàçáèâêà íà ãðèäû 
+    readingtime = true #ïîäñ÷¸è êîë-âà ñëîâ è âðåìåíè
+    socialshare = true # îòîáðàæåíèå òåêñòà 
+    socialicon = true # îòîáðàæåíèå èêîíêè
     googletranslate = true 
-    searchfunction = true #������� ������ �� �����
+    searchfunction = true #ôóíêöèÿ ïîèñêà íà ñàéòå
     logotext = "HUGO W3 SIMPLE" 
-    footer = "&copy; [Кирилл Тургунбаев](https://vk.com/fwf2000) 2018 | [Github](https://github.com/johndoe) | [Twitter](https://vk.com/fwf2000)  | [RSS](/index.xml)"
-# ���������� ���. ���� �� ����������
+    footer = "&copy; [ÐšÐ¸Ñ€Ð¸Ð»Ð» Ð¢ÑƒÑ€Ð³ÑƒÐ½Ð±Ð°ÐµÐ²](https://vk.com/fwf2000) 2018 | [Github](https://github.com/johndoe) | [Twitter](https://vk.com/fwf2000)  | [RSS](/index.xml)"
+# îïåðäåëÿåò ñîö. ñåòü ïî ïàðàìåòðàì
 [params.social]  
     a-envelope = "mailto:your@email.com"
     b-stack-overflow ="https://stackoverflow.com/"
