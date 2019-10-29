@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Главное меню on Hugo W3 Simple</title>
+    <link>/categories/%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5-%D0%BC%D0%B5%D0%BD%D1%8E/</link>
+    <description>Recent content in Главное меню on Hugo W3 Simple</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 07 Oct 2018 11:40:11 +0200</lastBuildDate>
+    
+	<atom:link href="/categories/%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%BE%D0%B5-%D0%BC%D0%B5%D0%BD%D1%8E/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Билльярд</title>
+      <link>/posts/eighth/</link>
+      <pubDate>Sun, 07 Oct 2018 11:40:11 +0200</pubDate>
+      
+      <guid>/posts/eighth/</guid>
+      <description>Бильярд – интересная интеллектуальная игра, у которой много общего с игрой в шахматы. В ней также необходимы ум и логика. Недаром бильярдом увлекались многие известные люди. Есть достаточно примеров, когда выдающиеся личности прошлого и современности одним из своих наивысших достижений в жизни считали умение играть в бильярд. И они действительно были признанными мастерами в своё время.
+игра в бильярдБильярд развивает умение сосредотачиваться, концентрироваться до полного отрешения и правильно оценивать ситуацию. Он тренирует выдержку и хладнокровие.</description>
+    </item>
+    
+  </channel>
+</rss>

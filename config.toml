@@ -1,0 +1,68 @@
+baseurl = ""
+languageCode = "en-us"
+title = "Hugo W3 Simple"
+defaultContentLanguage = "en" 
+
+theme = "hugo-w3-simple-master"
+disqusShortname = ""      
+googleAnalytics = ""     
+paginate = 12 #использует 3 столбца в гриде
+hasCJKLanguage = true # автоматическое определение языка
+
+# элементы меню
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+[[menu.main]]
+    name = "РљР°С‚РµРіРѕСЂРёРё"
+    url = "/Categories/"
+[[menu.main]]
+    name = "РўРµРіРё"
+    url = "/Tags/"
+[[menu.main]]
+    name = "Р’СЃРµ РїРѕСЃС‚С‹"
+    url = "/allposts/"
+[[menu.main]]
+    name = "РљРёС‚Р°Р№СЃРєРёР№"
+    url = "/zh-cn/"
+# разделение на английскую версию сайта
+[languages.en]
+weight = 0
+languageName = "English"
+contentDir = "content/english"
+[languages.en.params]
+      title = "Hugo W3 Simple Theme"
+      authorinfo = "<h4>Authored By РљРёСЂРёР»Р» РўСѓСЂРіСѓРЅР±Р°РµРІ</h4>"
+      licenseinfo = "<p class=\"w3-small\">РҐРѕСЂРѕС€РёР№ С‡РµР»РѕРІРµРє, Р¶РёРІСѓС‰РёР№ РЅР° Р—РµРјР»Рµ, Р»СЋР±СЏС‰РёР№ РґРµР»Р°С‚СЊ СЃР°Р№С‚ СЃ РҐСЊСЋРіРѕ. Р?С‚Р° СЃС‚Р°С‚СЊСЏ Р»РёС†РµРЅР·РёСЂРѕРІР°РЅР° РїРѕРґ <a rel=\"license\" href=\"https://creativecommons.org/licenses/by/4.0/\" class=\"w3-text-white\">РњРµР¶РґСѓРЅР°СЂРѕРґРЅР°СЏ Р›РёС†РµРЅР·РёСЏ Creative Commons Attribution 4.0</a>.</p>"
+      logotext = "HUGO W3 SIMPLE" 
+      isso_langcode="en"
+#  функционирования сайта
+[params]
+    authorandlicense = true 
+    authorimgurl = "https://raw.githubusercontent.com/jesselau76/hugo-w3-simple/master/exampleSite/images/johndoe.jpg" 
+    backtotop = true
+    glowlogo = true #светящийся логотип
+    scrollindicator = true #скролл индикатор
+    gridstyle = true #разбивка на гриды 
+    readingtime = true #подсчёи кол-ва слов и времени
+    socialshare = true # отображение текста 
+    socialicon = true # отображение иконки
+    googletranslate = true 
+    searchfunction = true #функция поиска на сайте
+    logotext = "HUGO W3 SIMPLE" 
+    footer = "&copy; [РљРёСЂРёР»Р» РўСѓСЂРіСѓРЅР±Р°РµРІ](https://vk.com/fwf2000) 2018 | [Github](https://github.com/johndoe) | [Twitter](https://vk.com/fwf2000)  | [RSS](/index.xml)"
+# оперделяет соц. сеть по параметрам
+[params.social]  
+    a-envelope = "mailto:your@email.com"
+    b-stack-overflow ="https://stackoverflow.com/"
+    c-twitter = "https://twitter.com/"
+    d-facebook = "https://www.facebook.com/"
+    f-github = "https://github.com/"
+    g-youtube = "https://www.youtube.com/"
+    h-linkedin = "https://www.linkedin.com"
+    i-google = "https://plus.google.com/"
+    j-github = "https://github.com"
+    k-weibo = "https://weibo.com" 
+
+
+
